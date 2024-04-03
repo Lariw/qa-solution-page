@@ -66,6 +66,7 @@
 .nav__hamburger {
   display: none;
   margin-right: 15px;
+  z-index: 99;
 }
 
 @media only screen and (max-width: 800px) {
@@ -79,10 +80,6 @@
 }
 
 /* hamburger animation */
-
-.nav__hamburgerWrapper {
-  height: 20px;
-}
 
 .visuallyHidden {
   position: absolute;
@@ -157,4 +154,37 @@
   transform-origin: 5%;
   transform: rotate(-45deg);
   width: 41px;
+}
+
+/* mobile nav */
+
+.nav__mobileNav {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: #1e1e1f;
+}
+
+:checked + .checkbox1 {
+  opacity: 1;
+  display: block;
+}
+
+.nav__mobileNavUl {
+  list-style: none;
+  color: #fff;
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.line {
+  display: block;
+  width: 80%;
+  height: 1px;
+  background: #fff;
 }
