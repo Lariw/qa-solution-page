@@ -1,12 +1,10 @@
 .footer {
   background-color: #0b3155;
   width: 100%;
-  /* temp */
   position: absolute;
-  bottom: 0;
-  /* temp */
   color: #ffffffb2;
   font-family: Lato;
+  z-index: 999;
 }
 
 .footer__row {
@@ -43,9 +41,6 @@
 
 .footer__requestBtn:hover {
   scale: 1.1;
-}
-
-.footer__requestBtn {
 }
 
 .copyright {

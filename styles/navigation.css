@@ -6,6 +6,7 @@
   font-family: "Lato", sans-serif;
   left: 0;
   top: 0;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 1300px) {
