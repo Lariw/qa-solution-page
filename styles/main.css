@@ -15,9 +15,24 @@ body {
 }
 
 .sectionContainer {
-  margin: 15px;
   background-color: #fff;
-  padding: 20px;
   box-shadow: 2px 2px 2px rgb(230, 230, 230);
   border-radius: 5px;
+  padding:40px;
+}
+
+.heading__wrapper {
+  display: flex;
+  margin-bottom:40px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heading__bullet {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #2234ae;
 }

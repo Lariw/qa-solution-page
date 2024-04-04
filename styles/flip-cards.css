@@ -5,8 +5,9 @@
   gap: 20px;
 }
 
-.flipcards__wrapper{
-  margin: 50px;
+.flipcards__wrapper {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .flipcard {
@@ -46,8 +47,29 @@
   color: black;
 }
 
+.flipcard__frontContainer {
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flipcard__title {
+
+}
+
+.flipcard__img {
+  width:80px;
+}
+
 .flipcard__back {
   background-color: #ddd;
   color: #000;
   transform: rotateY(180deg);
+}
+
+.flipcard__backContent {
+  font-size: 12px;
+  margin:5px;
 }

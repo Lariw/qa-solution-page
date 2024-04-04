@@ -50,6 +50,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  gap:20px;
 }
 
 .process__Title {
