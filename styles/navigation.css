@@ -1,8 +1,6 @@
 .nav {
   background-color: #fff;
-
   position: sticky;
-
   left: 0;
   top: 0;
   z-index: 999;
@@ -62,8 +60,6 @@
   transform-origin: left;
   transform: scaleX(1);
 }
-
-/* break at 800px to hamburger menu */
 
 .nav__hamburger {
   display: none;
@@ -157,8 +153,6 @@
   transform: rotate(-45deg);
   width: 41px;
 }
-
-/* mobile nav */
 
 .nav__mobileNav {
   display: none;

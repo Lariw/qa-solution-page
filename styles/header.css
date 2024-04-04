@@ -1,6 +1,3 @@
-.header {
-}
-
 .header__background {
   background-color: #2234ae;
   background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
@@ -12,16 +9,15 @@
   color: #fff;
   font-size: 25px;
   flex-direction: column;
-
 }
 
 .header__h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .header__line {
-    display: block;
-    width: 30%;
-    height: 1px;
-    border: 1px solid;
+  display: block;
+  width: 30%;
+  height: 1px;
+  border: 1px solid;
 }
