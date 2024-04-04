@@ -1,0 +1,68 @@
+.proccess__wrapper {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  position: relative;
+}
+
+.hexagon {
+  width: 200px;
+  height: 230px;
+  background-color: #f7f7f7;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.hexagon:hover {
+  background-color: #f7f7f7;
+  scale: 1.05;
+  transition: all ease 0.5s;
+}
+
+.content {
+  color: #000;
+}
+
+.process__icon {
+  width: 70px;
+}
+
+.process__content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.process__row {
+  margin: 20px;
+}
+
+.process__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.process__Title {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+}
+
+.process__Text {
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  max-width: 200px;
+}
