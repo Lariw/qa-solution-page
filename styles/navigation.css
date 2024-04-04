@@ -4,6 +4,7 @@
   left: 0;
   top: 0;
   z-index: 999;
+  box-shadow: 1px 1px 1px #2234ae;
 }
 
 .nav__wrapper {
