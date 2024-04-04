@@ -1,13 +1,12 @@
-.sectionContainer {
-  margin: 15px;
-  background-color: #fff;
-  box-shadow: 2px 2px 2px rgb(230, 230, 230);
-  border-radius: 5px;
+.flipcardsSection {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
   gap: 20px;
-  padding: 20px;
+}
+
+.flipcards__wrapper{
+  margin: 50px;
 }
 
 .flipcard {

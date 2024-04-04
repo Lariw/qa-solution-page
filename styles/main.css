@@ -12,3 +12,11 @@ body {
   padding: 0;
   background-color: #eeeeee;
 }
+
+.sectionContainer {
+  margin: 15px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgb(230, 230, 230);
+  border-radius: 5px;
+}
