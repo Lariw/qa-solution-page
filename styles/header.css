@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+  gap: 25px;
   font-size: 25px;
   flex-direction: column;
 }
@@ -20,4 +21,38 @@
   width: 30%;
   height: 1px;
   border: 1px solid;
+}
+
+.header_btnLink {
+  margin-top: 20px;
+  min-width: 220.52px;
+  min-height: 56px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+  border: 2px solid #fff;
+  transition: all linear 0.5s;
+}
+
+.header_btnLink:hover {
+  scale: 1.04;
+}
+
+.header_btn {
+  font-size: 20px;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.arrow__header {
+  transition: all 0.5s linear;
+}
+
+.header_btnLink:hover .arrow__header {
+  transform: translateX(10px);
 }
