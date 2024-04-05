@@ -58,7 +58,6 @@
   }
 }
 
-
 .flipcard__inner {
   position: relative;
   width: 100%;
@@ -96,7 +95,11 @@
 }
 
 .flipcard__img {
-  width: 80px;
+  width: 120px;
+}
+
+.flipcard__title {
+  font-size: 19px;;
 }
 
 .flipcard__back {
