@@ -3,6 +3,14 @@
   const mobileMenu = document.querySelector(".nav__mobileNav");
   const overlay = document.querySelector(".overlay");
   const body = document.body;
+  const mobileNavLinks = document.querySelectorAll(".nav__link");
+
+  function closeMobileMenu() {
+    mobileMenu.style.display = "none";
+    overlay.classList.remove("overlay--active");
+    body.style.overflow = "";
+    hamburgerBtn.checked = false;
+  }
 
   hamburgerBtn.addEventListener("click", () => {
     if (hamburgerBtn.checked) {
@@ -10,9 +18,13 @@
       overlay.classList.add("overlay--active");
       body.style.overflow = "hidden";
     } else {
-      mobileMenu.style.display = "none";
-      overlay.classList.remove("overlay--active");
-      body.style.overflow = "";
+      closeMobileMenu();
     }
+  });
+
+  mobileNavLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      closeMobileMenu();
+    });
   });
 })();
