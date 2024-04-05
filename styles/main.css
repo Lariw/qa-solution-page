@@ -18,7 +18,7 @@ body {
   background-color: #fff;
   box-shadow: 2px 2px 2px rgb(230, 230, 230);
   border-radius: 5px;
-  padding:40px;
+  padding-bottom: 40px; 
 }
 
 .heading__wrapper {
@@ -27,6 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding-top: 40px;
 }
 
 .heading__bullet {

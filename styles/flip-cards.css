@@ -2,22 +2,62 @@
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
-  gap: 20px;
+  gap: 30px;
 }
 
 .flipcards__wrapper {
-  width: 60%;
-  margin: 0 auto;
+  width:80%;
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 1500px) {
+  .flipcards__wrapper {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .flipcardsSection {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .flipcardsSection {
+    grid-template-columns: auto;
+  }
 }
 
 .flipcard {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 230px;
   background-color: black;
   color: #fff;
   background-color: transparent;
   perspective: 1000px;
 }
+
+@media only screen and (max-width: 800px) {
+  .flipcard {
+    width: 450px;
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flipcard {
+    width: 350px;
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .flipcard {
+    width: 200px;
+    height: 230px;
+  }
+}
+
 
 .flipcard__inner {
   position: relative;
