@@ -35,10 +35,31 @@ body {
   padding-top: 40px;
 }
 
-/* .heading__bullet {
-  display: inline-block;
+.border-corner {
+  font-size: 45px;
+  text-align: center;
+  position: relative;
+  padding: 10px 25px;
+  margin: 10px;
+}
+.border-corner::before,
+.border-corner::after {
+  content: "";
+  position: absolute;
   width: 20px;
   height: 20px;
-  border-radius: 2px;
-  background-color: #2234ae;
-} */
+  pointer-events: none;
+  border-radius: 3px;
+}
+.border-corner::before {
+  top: 0;
+  left: 0;
+  border-left: 8px solid #2234ae;
+  border-top: 8px solid #2234ae;
+}
+.border-corner::after {
+  bottom: 0;
+  right: 0;
+  border-right: 8px solid #2234ae;
+  border-bottom: 8px solid #2234ae;
+}

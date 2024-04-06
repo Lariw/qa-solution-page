@@ -8,11 +8,14 @@
   background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
   display: flex;
   justify-content: space-between;
+  transition: all ease 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
   .aboutUs__container {
     background-image: url(/assets/about-usImage.jpg);
+    background-position: right;
+    transition: all ease 0.5s;
   }
 }
 
@@ -45,11 +48,13 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 30px;
+  gap: 80px;
   height: 100%;
   color: #fff;
+  margin-top: 120px;
   margin-left: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
+  transition: all ease 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,11 +65,21 @@
     height: 100%;
     color: #fff;
     margin: 15px;
+    transition: all ease 0.5s;
   }
 }
 
 .aboutUs__content {
   line-height: 1.7;
+  font-size: 16px;
+  transition: all ease 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUs__content {
+    padding: 10px;
+    transition: all ease 0.5s;
+  }
 }
 
 .aboutUs__contentContainer {
@@ -75,9 +90,18 @@
 }
 
 .aboutUs__heading {
-  font-size: 26px;
+  font-size: 36px;
   margin: 0;
   margin-bottom: 20px;
+  transition: all ease 0.5s;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .aboutUs__heading {
+    font-size: 26px;
+    transition: all ease 0.5s;
+  }
 }
 
 .bullet {
@@ -85,4 +109,12 @@
   width: 20px;
   height: 20px;
   background-color: #2234ae;
+  transition: all ease 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .bullet {
+    background-color: #ffffff;
+    transition: all ease 0.5s;
+  }
 }
