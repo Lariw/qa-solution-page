@@ -2,8 +2,8 @@
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: space-around;
-  gap: 30px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .flipcards__wrapper {
