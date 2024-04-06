@@ -79,11 +79,13 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 12px;
+  box-shadow: 2px 2px 3px #ddd;
 }
 
 .flipcard__front {
-  background-color: #f1f1f1;
+  background-color: #f7f7f7;
   color: black;
+  cursor: pointer;
 }
 
 .flipcard__frontContainer {
@@ -99,11 +101,11 @@
 }
 
 .flipcard__title {
-  font-size: 19px;;
+  font-size: 19px;
 }
 
 .flipcard__back {
-  background-color: #ddd;
+  background-color: #f7f7f7;
   color: #000;
   transform: rotateY(180deg);
 }
