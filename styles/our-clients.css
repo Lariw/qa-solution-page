@@ -11,7 +11,7 @@
   height: 50px;
   margin: 0 40px;
   transition: scale ease 0.5s;
-  scale: 1.0;
+  scale: 1;
   cursor: pointer;
 }
 
@@ -21,7 +21,6 @@
   transition: scale ease 0.5s;
   scale: 1.1;
 }
-
 
 .ourClientsContainer {
   overflow: hidden;
@@ -46,4 +45,46 @@
 .ourClientsLogos {
   display: inline-block;
   animation: 20s slide infinite linear;
+}
+
+.accordionContainer {
+  background-color: #f7f7f7;
+  width:50%;
+  margin:0 auto;
+  border-radius: 4px;
+}
+
+.ourClients__accordion {
+  padding: 50px;
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+}
+
+.ourClients__accordionBtn {
+  width: 100%;
+  margin: 6px auto;
+  display: block;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: none;
+  cursor: pointer;
+
+}
+
+.accordion__panel {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  display: none;
+}
+
+.accordion__content {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.7;
 }
