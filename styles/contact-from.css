@@ -1,0 +1,106 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactSection__container {
+  background: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 50px;
+}
+
+.contact__contentBlock {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 750px;
+  background-image: url(/assets/email-message.jpg);
+  background-position: center;
+  color: #fff;
+  border-radius: 12px;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 1.5s;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact__contentBlock {
+    display: none;
+  }
+}
+
+.contact__form {
+  width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact__form {
+    width: 90%;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid hsl(0, 0%, 75%);
+  background-color: #fafafa;
+  outline: none;
+}
+
+.form__textarea {
+  resize: vertical;
+  max-height: 350px;
+  min-height: 100px;
+}
+
+.form__submitBtn {
+  padding: 15px;
+  width: 30%;
+  align-self: flex-end;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: all ease 0.3s;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #191714;
+  transition: all ease 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .form__submitBtn {
+    width: 100%;
+    align-self: center;
+    transition: all ease 0.5s;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .double-line {
+    display: block;
+  }
+}
+
+.form__submitBtn:hover {
+  scale: 1.05;
+  transition: all ease 0.4s;
+}
+
+.contact__heading {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 20px;
+  transition: all ease 0.5s;
+  margin-top: 30px;
+}

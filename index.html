@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/styles/process.css" />
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/about-us.css" />
+    <link rel="stylesheet" href="/styles/contact-from.css" />
     <script defer src="/script/hamburger-menu.js"></script>
     <script defer src="/script/accordion.js"></script>
 
@@ -71,7 +72,7 @@
             <input
               type="checkbox"
               id="checkbox1"
-              class="checkbox1 visuallyHidden"
+              class="checkbox1 visuallyHidden hamburger__input"
             />
             <label for="checkbox1">
               <div class="hamburger hamburger1">
@@ -539,7 +540,12 @@
           <div class="col">
             <div class="tabs">
               <div class="tab">
-                <input type="checkbox" checked id="chck1" />
+                <input
+                  class="accordionInput"
+                  type="checkbox"
+                  checked
+                  id="chck1"
+                />
                 <label class="tab-label" for="chck1"
                   >Click and see more our clients</label
                 >
@@ -776,10 +782,35 @@
       </div>
     </section>
 
-    <section class="sectionContainer">
-      <div class="contactContainer">
-        <div><h4>Have any questions? Talk to us.</h4></div>
-        <div class="contact__form"></div>
+    <section class="sectionContainer sectionContainer--last">
+      <div class="contactSection__container">
+        <div class="contact__headingWrapper">
+          <div class="contact__headingContainer">
+            <h3 class="contact__heading">
+              Have any questions? <span class="double-line">Talk to us.</span>
+            </h3>
+            <span class="line line--darkBlue"></span>
+          </div>
+        </div>
+
+        <div class="contactContainer">
+          <div class="contact__contentBlock"></div>
+          <div class="contact__form">
+            <form class="form">
+              <input class="form__input" type="text" placeholder="Your name" />
+              <input class="form__input" type="text" placeholder="Email" />
+              <input class="form__input" type="text" placeholder="Subject" />
+              <textarea
+                class="form__input form__textarea"
+                cols="30"
+                rows="10"
+                placeholder="Write your message"
+              ></textarea>
+
+              <button class="form__submitBtn">Send message</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 

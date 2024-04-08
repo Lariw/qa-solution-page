@@ -5,6 +5,7 @@
   position: absolute;
   color: #ffffffb2;
   font-family: Lato;
+  padding: 20px 0;
 }
 
 .footer__content {
@@ -101,7 +102,6 @@
     text-align: center;
   }
 }
-
 
 .footer__list {
   list-style-type: none;
