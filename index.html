@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/about-us.css" />
     <script defer src="/script/hamburger-menu.js"></script>
-
+    <script defer src="/script/accordion.js"></script>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
 
     <title>QuAs Solutions</title>
@@ -32,20 +32,20 @@
     <nav class="nav">
       <div class="nav__wrapper">
         <div class="nav__logo">
-          <img
-            class="nav__img"
-            src="/assets/logo.png"
-            alt="QA Solutions logo"
-          />
+          <a href="/">
+            <img
+              class="nav__img"
+              src="/assets/logo.png"
+              alt="QA Solutions logo"
+            />
+          </a>
         </div>
         <ul class="nav__ulist">
-          <li class="nav__li"><a href="#" class="nav__link">Home</a></li>
           <li class="nav__li"><a href="#" class="nav__link">About us</a></li>
           <li class="nav__li">
             <a href="#" class="nav__link">Our services</a>
           </li>
           <li class="nav__li"><a href="#" class="nav__link">Our clients</a></li>
-          <li class="nav__li"><a href="#" class="nav__link">Pricing</a></li>
           <li class="nav__li"><a href="#" class="nav__link">Contact</a></li>
         </ul>
 
@@ -71,10 +71,6 @@
       <div class="nav__mobileNav">
         <ul class="nav__mobileNavUl">
           <li class="nav__li">
-            <a class="nav__link nav__link--mobile" href="#">Home</a>
-          </li>
-          <span class="line"></span>
-          <li class="nav__li">
             <a class="nav__link nav__link--mobile" href="#">About us</a>
           </li>
           <span class="line"></span>
@@ -84,10 +80,6 @@
           <span class="line"></span>
           <li class="nav__li">
             <a class="nav__link nav__link--mobile" href="#">Our clients</a>
-          </li>
-          <span class="line"></span>
-          <li class="nav__li">
-            <a class="nav__link nav__link--mobile" href="#">Pricing</a>
           </li>
           <span class="line"></span>
           <li class="nav__li">
@@ -497,27 +489,468 @@
     </section>
 
     <section class="sectionContainer">
-      <div class="ourClients__accordion">
-        <div class="accordionContainer">
-          <button class="ourClients__accordionBtn">accordion-2</button>
-          <div class="accordion__panel">
-            <span class="accordion__content"
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.</span
+      <div class="accorditionElement">
+        <div class="aboutUs__header">
+          <h2 class="aboutUs__heading">Satisfied Customers</h2>
+          <span class="line"></span>
+        </div>
+
+        <div class="ourClients__contentContainer">
+          <div class="aboutUs__contentBox">
+            <span class="bullet"></span>
+            <span class="aboutUs__content">
+              We are a leading provider of Quality Assurance (QA) services,
+              specializing in delivering high-quality internet products for a
+              diverse range of clients. Our experience encompasses working with
+              a wide spectrum of companies, including small startups and large
+              corporations, across various industries and sectors.
+            </span>
+          </div>
+
+          <div class="aboutUs__contentBox">
+            <span class="bullet"></span>
+            <span class="aboutUs__content">
+              We have collaborated with numerous clients, assisting them in
+              achieving their business goals by ensuring the excellent quality
+              of their internet products.</span
             >
           </div>
         </div>
+
         <div class="accordionContainer">
-          <button class="ourClients__accordionBtn">accordion-2</button>
-          <div class="accordion__panel">
-            <span class="accordion__content"
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.</span
-            >
+          <div class="col">
+            <div class="tabs">
+              <div class="tab">
+                <input type="checkbox" id="chck1" />
+                <label class="tab-label" for="chck1"
+                  >Click and see more our clients</label
+                >
+                <div class="tab-content">
+                  <div class="clientsListGrid">
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="clientsLogosContainer">
+                      <img
+                        class="ourClientsGridImage"
+                        src="/assets/companyLogos/lasalle.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -564,6 +997,8 @@
         </div>
       </div>
     </section>
+
+    <section class="sectionContainer"></section>
 
     <footer class="footer">
       <div class="footer__content">
@@ -616,7 +1051,6 @@
               <li><a class="footer__link" href="#">About us</a></li>
               <li><a class="footer__link" href="#">Our services</a></li>
               <li><a class="footer__link" href="#">Our clients</a></li>
-              <li><a class="footer__link" href="#">Pricing</a></li>
               <li><a class="footer__link" href="#">Contact</a></li>
             </ul>
           </div>

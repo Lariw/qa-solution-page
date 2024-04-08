@@ -73,6 +73,8 @@
   line-height: 1.7;
   font-size: 16px;
   transition: all ease 0.5s;
+  color: #fff;
+  width: 80%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,13 +91,17 @@
   margin-bottom: 40px;
 }
 
+.aboutUs__contentBox {
+  display: flex;
+  gap: 20px;
+}
+
 .aboutUs__heading {
   font-size: 36px;
   margin: 0;
   margin-bottom: 20px;
   transition: all ease 0.5s;
 }
-
 
 @media only screen and (max-width: 450px) {
   .aboutUs__heading {
