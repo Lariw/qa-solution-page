@@ -206,6 +206,6 @@ input:checked ~ .tab-content {
 }
 
 .ourClientsGridImage {
-  height: 112px;
-  width: 150px;
+  height: 100px;
+  width: 120px;
 }
