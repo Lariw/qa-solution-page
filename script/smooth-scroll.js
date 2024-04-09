@@ -1,0 +1,1 @@
+(()=>{let e=e=>{document.querySelector(e).scrollIntoView({behavior:"smooth"})};document.querySelectorAll(".nav__link, .header_btnLink").forEach(t=>{t.addEventListener("click",r=>{r.preventDefault(),e(t.getAttribute("href"))})})})();

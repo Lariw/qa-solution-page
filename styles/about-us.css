@@ -2,6 +2,10 @@
   padding: 0px;
 }
 
+.background-contact-footer {
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+}
+
 .aboutUs__container {
   width: 100%;
   background-color: #2234ae;
@@ -13,14 +17,15 @@
 
 @media only screen and (max-width: 600px) {
   .aboutUs__container {
-    background-image: url(/assets/about-usImage.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(/assets/about-usImage.webp);
     background-position: right;
     transition: all ease 0.5s;
   }
 }
 
 .aboutUs__backgroundImg {
-  background-image: url(/assets/about-usImage.jpg);
+  background-image: url(/assets/about-usImage.webp);
   width: 40%;
   background-position: center;
   background-size: 550px;
@@ -41,7 +46,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .aboutUs__experienceBlock {
@@ -116,11 +121,4 @@
   height: 20px;
   background-color: #2234ae;
   transition: all ease 0.5s;
-}
-
-@media only screen and (max-width: 600px) {
-  .bullet {
-    background-color: #ffffff;
-    transition: all ease 0.5s;
-  }
 }
