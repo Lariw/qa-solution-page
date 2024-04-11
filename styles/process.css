@@ -1,6 +1,6 @@
 .hexagon,
 .hexagon:hover {
-  background-color: #f7f7f7;
+  background-image: linear-gradient(315deg, #2234ae 0, #191714 74%);
   transition: 0.5s;
 }
 .hexagon,
@@ -51,7 +51,7 @@
   color: #000;
 }
 .process__icon {
-  width: 70px;
+  width: 90px;
 }
 .process__content {
   margin-top: 10px;

@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 70px;
- margin: 50px;
+  margin: 50px;
   transition: all ease 0.5s;
 }
 
@@ -48,7 +48,7 @@
 }
 .aboutUs__content {
   line-height: 1.7;
-  font-size: 16px;
+  font-size: 18px;
   transition: 0.5s;
   color: #fff;
   width: 80%;
@@ -128,7 +128,7 @@
   background: #f7f7f7;
   margin: 0 auto;
   position: relative;
-  top: -70px;
+  top: -95px;
   border-radius: 12px;
   border: 1px solid rgba(76, 77, 82, 0.76);
   box-shadow: 1px 1px 1px solid #ddd;
