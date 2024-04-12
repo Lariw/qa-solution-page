@@ -6,8 +6,11 @@ html {
 ::before {
   box-sizing: inherit;
 }
-a {
+a,
+ul {
   text-decoration: none;
+  color: unset;
+  list-style: none;
 }
 body {
   margin: 0;
@@ -26,7 +29,6 @@ body {
   padding-top: 80px;
   width: 90%;
   margin: 0 auto;
-
 }
 .border-corner {
   font-size: 45px;
@@ -80,4 +82,9 @@ body::-webkit-scrollbar-thumb {
 
 .headings {
   color: #fff;
+}
+
+.line--shorter {
+  width: 80%;
+  margin: 15px 0;
 }
