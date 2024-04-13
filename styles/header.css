@@ -22,7 +22,7 @@ header {
   gap: 25px;
   flex-direction: column;
   position: relative;
-  top: -550px;
+  top: -65%;
 }
 .header__h1 {
   text-transform: uppercase;
@@ -116,7 +116,23 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   margin: 0 auto;
   justify-content: center;
-  padding: 10px;
+  padding: 0 10px;
+  transition: all ease 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header__list {
+    transition: all ease 0.5s;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header__list {
+    grid-template-columns: unset;
+    transition: all ease 0.5s;
+    width: 100%;
+  }
 }
 
 .header__li {
