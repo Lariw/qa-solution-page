@@ -48,9 +48,9 @@
 .aboutUs__content {
   line-height: 1.7;
   font-size: 15px;
-  transition: 0.5s;
   color: #fff;
   width: 80%;
+  transition: all ease 0.5s;
 }
 
 .ourClients__contentContainer {
@@ -122,6 +122,14 @@
   gap:30px;
 }
 
+@media only screen and (max-width:1000px) {
+  .aboutUs__imageModalWrapper {
+    width: 90%;
+    gap:unset;
+    transition: all ease 0.5s;
+  }
+}
+
 .aboutUs__mainContainer {
   width: 80%;
   margin: 0 auto;
@@ -151,6 +159,13 @@
   }
 }
 
+@media only screen and (max-width:1000px) {
+  .aboutUs__contentTitle > h3  {
+    font-size: 25px;
+    transition: all ease 0.5s;
+  }
+}
+
 .aboutUs__containerContent {
   width: 80%;
   margin: 0 auto;
@@ -160,6 +175,14 @@
 @media only screen and (max-width:1000px) {
   .aboutUs__content  {
     font-size: 12px;
+    transition: all ease 0.5s;
+  }
+}
+
+@media only screen and (max-width:555px) {
+  .aboutUs__content  {
+    font-size: 15px;
+    transition: all ease 0.5s;
   }
 }
 
@@ -171,6 +194,18 @@
 @media only screen and (max-width:1000px) {
   .aboutUs__img  {
     width: 350px;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .aboutUs__img  {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width:555px) {
+  .aboutUs__img  {
+    display: none;
   }
 }
 
