@@ -1,8 +1,4 @@
-.ourClients__img,
 .ourClients__img:hover {
-  height: 50px;
-  margin: 0 40px;
-  transition: scale 0.5s;
 }
 .accordion__panel,
 .tab,
@@ -20,21 +16,45 @@
 .ourClients__img {
   scale: 1;
   cursor: pointer;
+  margin: 0 40px;
+  height: 50px;
+  transition: all ease 0.5s;
+  width: 150px;
 }
 .ourClients__img:hover {
   scale: 1.1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ourClients__img {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ourClients__img {
+    width: 100px;
+    margin: 0 20px;
+    transition: all ease 0.5s;
+  }
 }
 .ourClientsContainer {
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 60px 0;
+  padding: 40px 0;
   white-space: nowrap;
   position: relative;
+  transition: all ease 0.5s;
 }
-/* .ourClientsContainer:hover .ourClientsLogos {
-  animation-play-state: paused;
-} */
+
+@media only screen and (max-width: 1000px) {
+  .ourClientsContainer {
+    padding: 20px;
+    transition: all ease 0.5s;
+  }
+}
+
 .ourClientsContainer::before {
   position: absolute;
   top: 0;
@@ -200,8 +220,8 @@
 }
 
 .clientsLogosContainer:hover {
-background-color: #0000000e;
-border-radius: 4px;
+  background-color: #0000000e;
+  border-radius: 4px;
 }
 .ourClientsGridImage {
   height: 100px;
