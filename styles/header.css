@@ -22,7 +22,7 @@ header {
   gap: 25px;
   flex-direction: column;
   position: relative;
-  top: -550px;
+  top: -65%;
 }
 .header__h1 {
   text-transform: uppercase;
