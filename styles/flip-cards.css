@@ -1,3 +1,11 @@
+.servicesBlock {
+  background-image: linear-gradient(315deg, #2234ae 0, #191714 74%);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 12px;
+}
+
 .flipcardsSection {
   width: 100%;
   display: grid;
@@ -7,14 +15,11 @@
 }
 .flipcards__wrapper {
   max-width: 1200px;
-  background-image: linear-gradient(315deg, #2234ae 0, #191714 74%);
   width: 80%;
   margin: 0 auto 90px;
   padding: 70px 54px;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 0px 23px 10px rgba(222, 223, 237, 1);
-  -moz-box-shadow: 0px 0px 23px 10px rgba(222, 223, 237, 1);
-  box-shadow: 0px 0px 23px 10px rgba(222, 223, 237, 1);
+
   border-radius: 40px;
 }
 @media only screen and (max-width: 1500px) {
