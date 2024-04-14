@@ -137,15 +137,15 @@
   width: 80%;
   margin: 0 auto;
   color: #fff;
+  transition: all ease 0.5s;
 }
 
 @media only screen and (max-width: 555px) {
   .tab {
     width: 100%;
+    transition: all ease 0.5s;
   }
 }
-
-
 
 .tab-label {
   justify-content: space-between;

@@ -32,7 +32,6 @@
 .flipcard {
   width: 230px;
   height: 200px;
-  color: #fff;
   background-color: transparent;
   perspective: 1000px;
   transition: 0.5s;
@@ -40,8 +39,8 @@
 }
 .flipcard__back,
 .flipcard__front {
-  background-color: #f7f7f7;
-  color: #000;
+  background-color: #fff;
+  color: #000000;
 }
 @media only screen and (max-width: 800px) {
   .flipcardsSection {
@@ -94,7 +93,6 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 12px;
-  box-shadow: 2px 2px 3px #ddd;
 }
 .flipcard__front {
   cursor: pointer;
