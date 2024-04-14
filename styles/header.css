@@ -105,7 +105,8 @@ header {
 }
 
 .headerAdditionalBlock2 {
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: center;
   width: 100%;
 }

@@ -92,13 +92,13 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  gap:30px;
+  gap: 30px;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   .aboutUs__imageModalWrapper {
     width: 90%;
-    gap:unset;
+    gap: unset;
     transition: all ease 0.5s;
   }
 }
@@ -108,14 +108,38 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 60px;
   transition: all ease 0.5s;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   .aboutUs__mainContainer {
     width: 95%;
     transition: all ease 0.5s;
+  }
+}
+
+.aboutUs__contentTitle > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUs__contentTitleIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 555px) {
+  .aboutUs__contentTitleIcon {
+    width: 50px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutUs__contentTitle {
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
 
@@ -125,15 +149,15 @@
   transition: all ease 0.5s;
 }
 
-@media only screen and (max-width:1000px) {
-  .aboutUs__contentTitle > h3  {
+@media only screen and (max-width: 1000px) {
+  .aboutUs__contentTitle > h3 {
     font-size: unset;
     transition: all ease 0.5s;
   }
 }
 
-@media only screen and (max-width:555px) {
-  .aboutUs__contentTitle > h3  {
+@media only screen and (max-width: 555px) {
+  .aboutUs__contentTitle > h3 {
     font-size: 25px;
     transition: all ease 0.5s;
   }
@@ -145,15 +169,15 @@
   transition: all ease 0.5s;
 }
 
-@media only screen and (max-width:1000px) {
-  .aboutUs__content  {
+@media only screen and (max-width: 1000px) {
+  .aboutUs__content {
     font-size: 12px;
     transition: all ease 0.5s;
   }
 }
 
-@media only screen and (max-width:555px) {
-  .aboutUs__content  {
+@media only screen and (max-width: 555px) {
+  .aboutUs__content {
     font-size: 15px;
     transition: all ease 0.5s;
   }
@@ -164,20 +188,20 @@
   border-radius: 15px;
 }
 
-@media only screen and (max-width:1000px) {
-  .aboutUs__img  {
+@media only screen and (max-width: 1000px) {
+  .aboutUs__img {
     width: 350px;
   }
 }
 
-@media only screen and (max-width:700px) {
-  .aboutUs__img  {
+@media only screen and (max-width: 700px) {
+  .aboutUs__img {
     width: 250px;
   }
 }
 
-@media only screen and (max-width:555px) {
-  .aboutUs__img  {
+@media only screen and (max-width: 555px) {
+  .aboutUs__img {
     display: none;
   }
 }
@@ -187,7 +211,5 @@
   flex-direction: column;
   max-width: 800px;
   gap: 20px;
+  text-align: center;
 }
-
-
-
