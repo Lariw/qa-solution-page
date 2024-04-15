@@ -85,7 +85,7 @@
   margin-right: 15px;
   z-index: 99;
 }
-@media only screen and (max-width: 808px) {
+@media only screen and (max-width: 815px) {
   .nav__hamburger {
     display: block;
     margin-right: 40px;
@@ -160,6 +160,14 @@
   border-left: 1px solid #e0e0e0;
   z-index: 1;
 }
+
+@media only screen and (max-width: 815px) {
+  .nav__mobileNav {
+    display: none;
+  }
+}
+
+
 .nav__mobileNavLogo {
   display: flex;
   justify-content: center;

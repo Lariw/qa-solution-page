@@ -29,7 +29,7 @@ header {
   text-align: center;
   font-size: 45px;
   margin: 0 20px;
-  background-color: #19171480;
+  background: radial-gradient(circle, rgba(2,4,17,0.6110819327731092) 0%, rgba(252,70,107,0.00043767507002800965) 100%);
   padding: 5px 25px;
   border-radius: 5px;
 }
