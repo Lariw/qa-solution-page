@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/styles/contact-from.css" />
     <script defer src="/script/hamburger-menu.js"></script>
     <script defer src="/script/smooth-scroll.js"></script>
+    <script defer src="/script/emailjs.js"></script>
 
     <title>
       QuAs - Solutions - Elevating Excellence Through Comprehensive Testing
@@ -1299,24 +1300,24 @@
 
           <div class="contact__bottomSection">
             <div class="contact__wrapper contact__wrapper-right">
-              <form class="form">
+              <form class="form js-form">
                 <h5 id="contact" class="contact__heading">Send message</h5>
                 <div class="group group--first">
-                  <input class="input" type="text" required />
+                  <input class="input js-name" type="text" required />
                   <span class="highlight"></span>
                   <span class="bar"></span>
-                  <label class="label">Name</label>
+                  <label class="label">Name *</label>
                 </div>
 
                 <div class="group">
-                  <input class="input" type="text" required />
+                  <input class="input js-email" type="email" required />
                   <span class="highlight"></span>
                   <span class="bar"></span>
                   <label class="label">Email *</label>
                 </div>
 
                 <div class="group">
-                  <input class="input" type="text" required />
+                  <input class="input js-subject" type="text" />
                   <span class="highlight"></span>
                   <span class="bar"></span>
                   <label class="label">Subject</label>
@@ -1324,8 +1325,7 @@
 
                 <div class="group">
                   <textarea
-                    class="input textarea"
-                    required
+                    class="input textarea js-message"
                     cols="30"
                     rows="10"
                   ></textarea>
@@ -1334,7 +1334,7 @@
                   <label class="label">Message</label>
                 </div>
 
-                <button class="contact__submitBtn">Submit</button>
+                <button class="contact__submitBtn js-submit">Submit</button>
               </form>
             </div>
 
