@@ -33,10 +33,9 @@
 }
 
 .contact__card {
-  width: max-content;
+  width: 250px;
   padding: 30px;
   background-color: #fff;
-  /* box-shadow: 1px 1px 2px 1px #7c7c7c; */
   border-radius: 15px;
   border: 2px solid #2234ae;
   transition: all ease 0.5s;
@@ -168,8 +167,8 @@
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-
-.input:focus ~ label {
+.input:focus ~ .label,
+.input:valid ~ .label {
   top: -20px;
   font-size: 14px;
   color: #5264ae;
