@@ -15,7 +15,17 @@
     <script defer src="/script/hamburger-menu.js"></script>
     <script defer src="/script/smooth-scroll.js"></script>
     <script defer src="/script/emailjs.js"></script>
-
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "OW8ezPFnnS9AG3rDq",
+        });
+      })();
+    </script>
     <title>
       QuAs - Solutions - Elevating Excellence Through Comprehensive Testing
       Services
@@ -1335,6 +1345,9 @@
                 </div>
 
                 <button class="contact__submitBtn js-submit">Submit</button>
+                <div class="form__successMessage">
+                  <span class="form__successMessageText">successfull</span>
+                </div>
               </form>
             </div>
 

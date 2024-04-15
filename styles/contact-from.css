@@ -169,7 +169,7 @@
   -webkit-transition: 0.2s ease all;
 }
 
-.input:focus ~ label{
+.input:focus ~ label {
   top: -20px;
   font-size: 14px;
   color: #5264ae;
@@ -378,4 +378,36 @@
   .linespace {
     display: block;
   }
+}
+
+.form__successMessage {
+  margin: 25px;
+  width: 120px;
+  height: 40px;
+  background-color: #0b9929;
+  border-radius: 12px;
+  position: fixed;
+  bottom: 0px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  animation: slide-up 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.form__successMessageText {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
 }
