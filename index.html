@@ -760,10 +760,10 @@
       </div>
     </section>
 
-    <section id="our-clients" class="sectionContainer">
+    <section class="sectionContainer">
       <div class="accorditionElement">
         <div class="aboutUs__header">
-          <h3 class="aboutUs__heading">Satisfied Customers</h3>
+          <h3 id="our-clients" class="aboutUs__heading">Satisfied Customers</h3>
           <span class="line"></span>
         </div>
 
@@ -1282,129 +1282,135 @@
         <div class="contact__main">
           <div class="contact__bottomSection">
             <div class="contact__wrapper contact__wrapper-right">
-              <form class="form js-form">
-                <h4 id="contact" class="contact__heading">Send message</h4>
-                <div class="group group--first">
-                  <input
-                    class="input js-name"
-                    type="text"
-                    required
-                    aria-label="name"
-                  />
-                  <span class="highlight"></span>
-                  <span class="bar"></span>
-                  <label class="label">Name *</label>
-                </div>
+              <h4 class="contact__heading">Send message</h4>
+              <div class="contact__innerWrapper">
+                <form class="form js-form">
+                  <div class="group group--first">
+                    <input
+                      class="input js-name"
+                      type="text"
+                      required
+                      aria-label="name"
+                    />
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label">Name *</label>
+                  </div>
 
-                <div class="group">
-                  <input
-                    class="input input-email js-email"
-                    type="email"
-                    required
-                    aria-label="email"
-                  />
-                  <span class="highlight"></span>
-                  <span class="bar"></span>
-                  <label class="label">Email *</label>
-                </div>
+                  <div class="group">
+                    <input
+                      class="input input-email js-email"
+                      type="email"
+                      required
+                      aria-label="email"
+                    />
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label">Email *</label>
+                  </div>
 
-                <div class="group">
-                  <input
-                    class="input js-subject"
-                    required
-                    type="text"
-                    aria-label="subject"
-                  />
-                  <span class="highlight"></span>
-                  <span class="bar"></span>
-                  <label class="label">Subject *</label>
-                </div>
+                  <div class="group">
+                    <input
+                      class="input js-subject"
+                      required
+                      type="text"
+                      aria-label="subject"
+                    />
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label">Subject *</label>
+                  </div>
 
-                <div class="group">
-                  <textarea
-                    aria-label="message"
-                    class="input textarea js-message"
-                    cols="30"
-                    rows="10"
-                    required
-                  ></textarea>
-                  <span class="highlight"></span>
-                  <span class="bar"></span>
-                  <label class="label">Message *</label>
-                </div>
+                  <div class="group">
+                    <textarea
+                      aria-label="message"
+                      class="input textarea js-message"
+                      cols="30"
+                      rows="10"
+                      required
+                    ></textarea>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label">Message *</label>
+                  </div>
 
-                <button class="contact__submitBtn js-submit">Submit</button>
-                <div class="form__successMessage">
-                  <span class="form__successMessageText">successfull</span>
-                </div>
-              </form>
+                  <button class="contact__submitBtn js-submit">Submit</button>
+                  <div class="form__successMessage">
+                    <span class="form__successMessageText">successfull</span>
+                  </div>
+                </form>
+              </div>
             </div>
 
             <div class="linespace"></div>
 
             <div class="contact__wrapper contact__wrapper--left">
-              <h4 class="contact__heading">Talk to our QA experts</h4>
+              <h4 id="contact" class="contact__heading">
+                Talk to our QA experts
+              </h4>
 
-              <div class="additionalContactInfo__mobile">
-                <ul class="contactCards__mobileUl">
-                  <li class="contactCards__mobileLi">
+              <div class="contact__innerWrapper">
+                <div class="additionalContactInfo__mobile">
+                  <ul class="contactCards__mobileUl">
+                    <li class="contactCards__mobileLi">
+                      <img
+                        src="assets/icns/phone-calling--color.svg"
+                        alt=""
+                        class="contactCards__mobileImg"
+                      />
+                      <a href="callto:+48788328523">+48 788 328 523</a>
+                    </li>
+                    <li class="contactCards__mobileLi">
+                      <img
+                        src="assets/icns/email-svg--color.svg"
+                        alt=""
+                        class="contactCards__mobileImg"
+                      /><a href="mailto:contact@qa-solutionsinc.com"
+                        >contact@qa-solutionsinc.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <span class="contact__content">
+                  If you have a website, or if you’re its administrator, and
+                  you’re unsure whether it has been optimally programmed, we can
+                  help. Whether you’re looking to enhance its speed, increase
+                  its online visibility, or improve accessibility, we know where
+                  to start. Contact us, and we’ll definitely assist you in
+                  making your website perform better.
+                </span>
+
+                <div class="socialIconsGroup">
+                  <a
+                    aria-label="facebook"
+                    target="_blank"
+                    href="https://www.facebook.com/quassolutions/"
+                  >
                     <img
-                      src="assets/icns/phone-calling--color.svg"
+                      class="socialIconsGroup__icon"
+                      src="assets/icns/facebook-svgrepo-com.svg"
                       alt=""
-                      class="contactCards__mobileImg"
-                    />
-                    <a href="callto:+48788328523">+48 788 328 523</a>
-                  </li>
-                  <li class="contactCards__mobileLi">
-                    <img
-                      src="assets/icns/email-svg--color.svg"
+                  /></a>
+                  <a
+                    aria-label="instagram"
+                    target="_blank"
+                    href="https://www.instagram.com/quas.solutions.inc/"
+                    ><img
+                      class="socialIconsGroup__icon"
+                      src="assets/icns/instagram-svgrepo-com.svg"
                       alt=""
-                      class="contactCards__mobileImg"
-                    /><a href="mailto:contact@qa-solutionsinc.com"
-                      >contact@qa-solutionsinc.com</a
-                    >
-                  </li>
-                </ul>
-              </div>
-
-              <span class="contact__content">
-                If you have a website, or if you’re its administrator, and
-                you’re unsure whether it has been optimally programmed, we can
-                help. Whether you’re looking to enhance its speed, increase its
-                online visibility, or improve accessibility, we know where to
-                start. Contact us, and we’ll definitely assist you in making
-                your website perform better.
-              </span>
-
-              <div class="socialIconsGroup">
-                <a
-                  aria-label="facebook"
-                  target="_blank"
-                  href="https://www.facebook.com/quassolutions/"
-                >
-                  <img
-                    class="socialIconsGroup__icon"
-                    src="assets/icns/facebook-svgrepo-com.svg"
-                    alt=""
-                /></a>
-                <a
-                  aria-label="instagram"
-                  target="_blank"
-                  href="https://www.instagram.com/quas.solutions.inc/"
-                  ><img
-                    class="socialIconsGroup__icon"
-                    src="assets/icns/instagram-svgrepo-com.svg"
-                    alt=""
-                /></a>
-                <a
-                  aria-label="linkedin"
-                  target="_blank"
-                  href="https://www.linkedin.com/company/quas-solutions-inc/"
-                  ><img
-                    class="socialIconsGroup__icon"
-                    src="assets/icns/linkedin-svgrepo-com.svg"
-                    alt=""
-                /></a>
+                  /></a>
+                  <a
+                    aria-label="linkedin"
+                    target="_blank"
+                    href="https://www.linkedin.com/company/quas-solutions-inc/"
+                    ><img
+                      class="socialIconsGroup__icon"
+                      src="assets/icns/linkedin-svgrepo-com.svg"
+                      alt=""
+                  /></a>
+                </div>
               </div>
             </div>
           </div>
