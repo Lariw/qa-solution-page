@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  position: relative;
-  top: 110px;
+  /* position: relative; */
+  /* top: 110px; */
   z-index: 2;
 }
 
@@ -78,7 +78,15 @@
 }
 
 .additionalContactInfo__mobile {
-  display: none;
+  display: flex;
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 950px) {
+  .additionalContactInfo__mobile {
+    display: flex;
+    align-self: center;
+  }
 }
 
 @media only screen and (max-width: 555px) {
@@ -325,6 +333,12 @@
 @media only screen and (max-width: 950px) {
   .contact__content {
     align-self: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact__content {
+    width: 100%;
   }
 }
 
