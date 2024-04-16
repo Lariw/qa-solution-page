@@ -1283,9 +1283,14 @@
           <div class="contact__bottomSection">
             <div class="contact__wrapper contact__wrapper-right">
               <form class="form js-form">
-                <h5 id="contact" class="contact__heading">Send message</h5>
+                <h4 id="contact" class="contact__heading">Send message</h4>
                 <div class="group group--first">
-                  <input class="input js-name" type="text" required />
+                  <input
+                    class="input js-name"
+                    type="text"
+                    required
+                    aria-label="name"
+                  />
                   <span class="highlight"></span>
                   <span class="bar"></span>
                   <label class="label">Name *</label>
@@ -1296,6 +1301,7 @@
                     class="input input-email js-email"
                     type="email"
                     required
+                    aria-label="email"
                   />
                   <span class="highlight"></span>
                   <span class="bar"></span>
@@ -1303,7 +1309,12 @@
                 </div>
 
                 <div class="group">
-                  <input class="input js-subject" required type="text" />
+                  <input
+                    class="input js-subject"
+                    required
+                    type="text"
+                    aria-label="subject"
+                  />
                   <span class="highlight"></span>
                   <span class="bar"></span>
                   <label class="label">Subject *</label>
@@ -1311,6 +1322,7 @@
 
                 <div class="group">
                   <textarea
+                    aria-label="message"
                     class="input textarea js-message"
                     cols="30"
                     rows="10"
@@ -1331,7 +1343,7 @@
             <div class="linespace"></div>
 
             <div class="contact__wrapper contact__wrapper--left">
-              <h5 class="contact__heading">Talk to our QA experts</h5>
+              <h4 class="contact__heading">Talk to our QA experts</h4>
 
               <div class="additionalContactInfo__mobile">
                 <ul class="contactCards__mobileUl">
@@ -1366,6 +1378,7 @@
 
               <div class="socialIconsGroup">
                 <a
+                  aria-label="facebook"
                   target="_blank"
                   href="https://www.facebook.com/quassolutions/"
                 >
@@ -1375,6 +1388,7 @@
                     alt=""
                 /></a>
                 <a
+                  aria-label="instagram"
                   target="_blank"
                   href="https://www.instagram.com/quas.solutions.inc/"
                   ><img
@@ -1383,6 +1397,7 @@
                     alt=""
                 /></a>
                 <a
+                  aria-label="linkedin"
                   target="_blank"
                   href="https://www.linkedin.com/company/quas-solutions-inc/"
                   ><img
