@@ -9,16 +9,6 @@
 .mergedSections {
   background-image: linear-gradient(315deg, #2234ae 0, #191714 74%);
 }
-/* .aboutUs__backgroundImg {
-  background-image: url(/iStock-1917354201.jpg);
-  object-fit: cover;
-  width: 40%;
-  background-position: center;
-  background-size: 550px;
-  background-repeat: no-repeat;
-  opacity: 1;
-  transition: 0.2s;
-} */
 .aboutUs__header {
   color: #fff;
   display: flex;
@@ -52,7 +42,6 @@
 @media only screen and (max-width: 600px) {
   .aboutUs__header,
   .ourClients__contentContainer {
-    margin-left: 10px;
     transition: 0.5s;
   }
 }

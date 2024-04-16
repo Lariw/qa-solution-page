@@ -305,6 +305,7 @@
 @media only screen and (max-width: 950px) {
   .contact__wrapper-right {
     margin: 0;
+    width: 100%;
   }
   .contact__content,
   .contact__heading {
