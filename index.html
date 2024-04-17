@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/about-us.css" />
     <link rel="stylesheet" href="/styles/contact-from.css" />
+    <link rel="stylesheet" href="/styles/testing-structure.css" />
     <script defer src="/script/hamburger-menu.js"></script>
-    <script defer src="/script/smooth-scroll.js"></script>
+    <script defer src="/script/func.js"></script>
     <script defer src="/script/emailjs.js"></script>
     <script
       type="text/javascript"
@@ -1027,238 +1028,243 @@
       </div>
     </section>
 
-    <section class="sectionContainer sectionContainer--ourServices">
-      <div class="servicesBlock">
-        <div class="aboutUs__header aboutUs__header--white">
-          <h2 id="our-services" class="aboutUs__heading">
-            How does our entire QA testing process look?
-          </h2>
-          <span class="line"></span>
+    <section class="newSection">
+      <div class="headerContainer--dark">
+        <h2 id="our-services" class="header--dark">
+          What types of tests can we offer?
+        </h2>
+        <span class="line line--dark"></span>
+      </div>
+
+      <div class="testingStructure__container">
+        <div class="testingStructure__headers">
+          <div class="testingStructure__headingsBlock">
+            <button
+              class="testingStructure__button testingStructure__button--active"
+            >
+              Manual
+            </button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Functionality</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Usability</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Responsiveness</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Compatibility</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Performance</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Accessibility</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">SEO</button>
+          </div>
+          <div class="testingStructure__headingsBlock">
+            <button class="testingStructure__button">Big Data</button>
+          </div>
         </div>
-        <div class="flipcards__wrapper">
-          <div class="flipcardsSection">
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/touch-click-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Manual visual testing</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Manual testing</h3>
-                    <span class="flipcard__backContent"
-                      >There is still no better tool than the subjective human
-                      eye when it comes to checking the appearance of your
-                      website.
-                    </span>
-                  </div>
-                </div>
-              </div>
+        <div class="testingStructure__contentContainer">
+          <div
+            class="testingStructure__innerContent testingStructure__innerContent--active"
+          >
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Manual testing</h3>
+              <div class="testingStructure__headerLine"></div>
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/port-detection-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Functionality testing</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Functionality</h3>
-                    <span class="flipcard__backContent"
-                      >To check that each functionality works as expected and
-                      doesn’t cause any problems in use
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="/assets/icns/production.svg"
+                alt="Production"
+              />
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/system-settings-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Usability testing</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Usability</h3>
-                    <span class="flipcard__backContent"
-                      >Checking the page from the end user's perspective. It
-                      allows you to objectively determine which areas require
-                      optimization.
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                There is still no better tool than the subjective human eye when
+                it comes to checking the appearance of your website.</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Functionality testing</h3>
+              <div class="testingStructure__headerLine"></div>
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/machine-vision-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Responsiveness testing</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Responsiveness</h3>
-                    <span class="flipcard__backContent"
-                      >Our role is to check absolutely every pixel of the screen
-                      width to make sure that all devices (especially mobile)
-                      will allow your website to be displayed in the best
-                      possible way.
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/undraw_planning.svg"
+                alt="Planning"
+              />
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/multiple-defenses-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Compatibility testing</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Compatibility</h3>
-                    <span class="flipcard__backContent"
-                      >Making sure your website works properly on different
-                      versions of systems.</span
-                    >
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                To check that each functionality works as expected and doesn’t
+                cause any problems in use</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Usability testing</h3>
+              <div class="testingStructure__headerLine"></div>
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/mobile-app-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Performance testing</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Performance</h3>
-                    <span class="flipcard__backContent"
-                      >Evaluating the system's compliance with performance
-                      requirements, taking into account aspects such as response
-                      time, load tests, image size, and more...
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="/assets/icns/undraw_result.svg"
+                alt=""
+              />
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/intelligent-positioning-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Accessibility</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Accessibility</h3>
-                    <span class="flipcard__backContent"
-                      >We'll make sure that your website complies with the
-                      latest WCAG standard guidelines and is friendly to people
-                      with disabilities.
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                Checking the page from the end user's perspective. It allows you
+                to objectively determine which areas require optimization.</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Responsiveness testing</h3>
+              <div class="testingStructure__headerLine"></div>
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="/assets/icns/page-analysis-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">SEO</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">SEO</h3>
-                    <span class="flipcard__backContent"
-                      >We will make sure that your source code is adapted to the
-                      requirements of search engines and find technical errors
-                      that cause problems with the proper functioning and
-                      indexing of the website.
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/undraw_testing.svg"
+                alt=""
+              />
             </div>
 
-            <div class="flipcard">
-              <div class="flipcard__inner">
-                <div class="flipcard__front">
-                  <div class="flipcard__frontContainer">
-                    <img
-                      class="flipcard__img"
-                      src="assets/icns/interface-control-svgrepo-com.svg"
-                      alt=""
-                    />
-                    <h3 class="flipcard__title">Big Data Analysis</h3>
-                  </div>
-                </div>
-                <div class="flipcard__back">
-                  <div class="flipcard__backContainer">
-                    <h3 class="flipcard__title">Big Data</h3>
-                    <span class="flipcard__backContent"
-                      >Testing all types of databases, analysing structures and
-                      correlations, finding errors and correcting them.
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                Our role is to check absolutely every pixel of the screen width
+                to make sure that all devices (especially mobile) will allow
+                your website to be displayed in the best possible way.</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Compatibility testing</h3>
+              <div class="testingStructure__headerLine"></div>
+            </div>
+
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/undraw_research.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                Making sure your website works properly on different versions of
+                systems.</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Performance testing</h3>
+              <div class="testingStructure__headerLine"></div>
+            </div>
+
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/production.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                Evaluating the system's compliance with performance
+                requirements, taking into account aspects such as response time,
+                load tests, image size, and more...</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Accessibility testing</h3>
+              <div class="testingStructure__headerLine"></div>
+            </div>
+
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/production.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                We'll make sure that your website complies with the latest WCAG
+                standard guidelines and is friendly to people with
+                disabilities.</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">SEO testing</h3>
+              <div class="testingStructure__headerLine"></div>
+            </div>
+
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/production.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                We will make sure that your source code is adapted to the
+                requirements of search engines and find technical errors that
+                cause problems with the proper functioning and indexing of the
+                website.</span
+              >
+            </div>
+          </div>
+          <div class="testingStructure__innerContent">
+            <div class="testingStructure__titleBlock">
+              <h3 class="testingStructure__title">Big Data Analysis</h3>
+              <div class="testingStructure__headerLine"></div>
+            </div>
+
+            <div class="testingStructure__imageContainer">
+              <img
+                class="testingStructure__image"
+                src="assets/icns/production.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="testingStructure__contentWrapper">
+              <span class="testingStructure__contentText">
+                Testing all types of databases, analysing structures and
+                correlations, finding errors and correcting them.</span
+              >
             </div>
           </div>
         </div>
