@@ -36,4 +36,4 @@ Disallow: /cgi-bin/
 Disallow: /documents/
 Disallow: /script/
 Disallow: /assets/icns/
-Sitemap: https://qa-solutionsinc.com/sitemap.xml
+Sitemap: https://qa-solutionsinc.pl/sitemap.xml
